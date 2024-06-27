@@ -169,13 +169,13 @@
 "P. cinnamomi","Carya illinoensis",2,NA,NA,2,NA
 "P. cinnamomi","Carya illinoinensis",2,NA,NA,2,NA
 "P. cinnamomi","Cassinia aculeata",3,NA,NA,3,NA
-"P. cinnamomi","Castanea × coudercii",1,NA,NA,1,NA
 "P. cinnamomi","Castanea crenata",4,NA,NA,4,NA
 "P. cinnamomi","Castanea dentata",13,NA,NA,13,NA
 "P. cinnamomi","Castanea mollissima",7,NA,NA,7,NA
 "P. cinnamomi","Castanea ozarkensis",2,NA,NA,2,NA
 "P. cinnamomi","Castanea pumila",7,NA,NA,7,NA
 "P. cinnamomi","Castanea sativa",179,NA,76,103,"Yes"
+"P. cinnamomi","Castanea × coudercii",1,NA,NA,1,NA
 "P. cinnamomi","Castanopsis carlesii",4,NA,2,2,NA
 "P. cinnamomi","Castanopsis chinensis",1,NA,NA,1,NA
 "P. cinnamomi","Castanopsis faberi",2,NA,2,NA,NA
@@ -217,9 +217,9 @@
 "P. cinnamomi","Cinnamomum verum",3,NA,NA,3,NA
 "P. cinnamomi","Cissus verticillata",1,NA,NA,1,NA
 "P. cinnamomi","Cistus × hybridus",1,NA,1,NA,NA
+"P. cinnamomi","Citrus japonica",2,NA,NA,2,NA
 "P. cinnamomi","Citrus × aurantium",2,NA,NA,2,NA
 "P. cinnamomi","Citrus × limon",1,NA,NA,1,NA
-"P. cinnamomi","Citrus japonica",2,NA,NA,2,NA
 "P. cinnamomi","Cliffortia ferruginea",2,NA,NA,2,NA
 "P. cinnamomi","Cliffortia grandifolia",2,NA,NA,2,NA
 "P. cinnamomi","Cliffortia strobilifera",2,NA,NA,2,NA
@@ -418,11 +418,11 @@
 "P. cinnamomi","Hypocalymma robustum",2,NA,NA,2,NA
 "P. cinnamomi","Hypochaeris glabra",2,NA,NA,2,NA
 "P. cinnamomi","Idesia polycarpa",2,NA,NA,2,NA
-"P. cinnamomi","Ilex × meserveae",2,NA,NA,2,NA
 "P. cinnamomi","Ilex aquifolium",2,NA,NA,2,"Yes"
 "P. cinnamomi","Ilex cassine",4,NA,NA,4,NA
 "P. cinnamomi","Ilex crenata",6,NA,NA,6,NA
 "P. cinnamomi","Ilex glabra",3,NA,NA,3,NA
+"P. cinnamomi","Ilex × meserveae",2,NA,NA,2,NA
 "P. cinnamomi","Isopogon attenuatus",2,NA,NA,2,NA
 "P. cinnamomi","Isopogon axillaris",1,NA,NA,1,NA
 "P. cinnamomi","Isopogon ceratophyllus",6,NA,NA,6,NA
@@ -585,7 +585,6 @@
 "P. cinnamomi","Nematolepis squamea",3,NA,NA,3,NA
 "P. cinnamomi","Neopanax arboreus",4,NA,NA,4,NA
 "P. cinnamomi","Nestegis lanceolata",4,NA,NA,4,NA
-"P. cinnamomi","Nothofagus × leoni",1,NA,NA,1,NA
 "P. cinnamomi","Nothofagus alessandrii",2,NA,NA,2,NA
 "P. cinnamomi","Nothofagus alpina",3,NA,NA,3,NA
 "P. cinnamomi","Nothofagus cliffortioides",3,NA,NA,3,NA
@@ -597,6 +596,7 @@
 "P. cinnamomi","Nothofagus menziesii",7,NA,NA,7,NA
 "P. cinnamomi","Nothofagus obliqua",2,NA,NA,2,NA
 "P. cinnamomi","Nothofagus solandri",2,NA,NA,2,NA
+"P. cinnamomi","Nothofagus × leoni",1,NA,NA,1,NA
 "P. cinnamomi","Notholithocarpus densiflorus",8,NA,1,7,NA
 "P. cinnamomi","Nymania capensis",2,NA,NA,2,NA
 "P. cinnamomi","Ocotea bullata",2,NA,NA,2,NA
@@ -663,9 +663,9 @@
 "P. cinnamomi","Piper excelsum",1,NA,NA,1,NA
 "P. cinnamomi","Pipturus albidus",2,NA,NA,2,NA
 "P. cinnamomi","Pistacia lentiscus",1,NA,NA,1,NA
-"P. cinnamomi","Platanus × hispanica",6,NA,NA,6,NA
 "P. cinnamomi","Platanus orientalis",6,NA,NA,6,NA
 "P. cinnamomi","Platanus racemosa",2,NA,NA,2,NA
+"P. cinnamomi","Platanus × hispanica",6,NA,NA,6,NA
 "P. cinnamomi","Platylobium obtusangulum",3,NA,NA,3,NA
 "P. cinnamomi","Platysace compressa",2,NA,NA,2,NA
 "P. cinnamomi","Podocarpus drouynianus",3,NA,NA,3,NA
@@ -750,7 +750,6 @@
 "P. cinnamomi","Quercus velutina",1,NA,NA,1,NA
 "P. cinnamomi","Rhamnus alaternus",3,NA,1,2,NA
 "P. cinnamomi","Rhaphiolepis indica",2,NA,NA,2,NA
-"P. cinnamomi","Rhododendron × hybridum",2,1,NA,1,NA
 "P. cinnamomi","Rhododendron adenogynum",1,1,NA,NA,NA
 "P. cinnamomi","Rhododendron catawbiense",6,NA,NA,6,NA
 "P. cinnamomi","Rhododendron columbianum",1,NA,NA,1,NA
@@ -770,6 +769,7 @@
 "P. cinnamomi","Rhododendron simsii",6,NA,NA,6,NA
 "P. cinnamomi","Rhododendron tomentosum",3,NA,NA,3,NA
 "P. cinnamomi","Rhododendron yakushimanum",4,3,NA,1,NA
+"P. cinnamomi","Rhododendron × hybridum",2,1,NA,1,NA
 "P. cinnamomi","Richardia brasiliensis",2,NA,NA,2,NA
 "P. cinnamomi","Richardia scabra",2,NA,NA,2,NA
 "P. cinnamomi","Ricinocarpos pinifolius",1,NA,NA,1,NA
@@ -813,9 +813,9 @@
 "P. cinnamomi","Tanacetum cinerariifolium",2,NA,NA,2,NA
 "P. cinnamomi","Tasmannia lanceolata",2,NA,NA,2,"Yes"
 "P. cinnamomi","Tasmannia purpurascens",2,NA,NA,2,NA
-"P. cinnamomi","Taxus × media",2,NA,NA,2,NA
 "P. cinnamomi","Taxus baccata",18,5,NA,13,"Yes"
 "P. cinnamomi","Taxus cuspidata",6,NA,NA,6,NA
+"P. cinnamomi","Taxus × media",2,NA,NA,2,NA
 "P. cinnamomi","Tecomaria capensis",2,NA,NA,2,NA
 "P. cinnamomi","Telopea speciosissima",13,NA,NA,13,NA
 "P. cinnamomi","Tetratheca ciliata",2,NA,NA,2,NA
@@ -960,8 +960,8 @@
 "P. ramorum","Notholithocarpus densiflorus",56,NA,11,45,NA
 "P. ramorum","Osmanthus fragrans",2,NA,NA,2,NA
 "P. ramorum","Osmanthus heterophyllus",3,NA,NA,3,NA
-"P. ramorum","Photinia × fraseri",2,NA,NA,2,NA
 "P. ramorum","Photinia arbutifolia",4,NA,NA,4,NA
+"P. ramorum","Photinia × fraseri",2,NA,NA,2,NA
 "P. ramorum","Picea sitchensis",3,NA,1,2,"Yes"
 "P. ramorum","Pieris japonica",13,4,NA,9,"Yes"
 "P. ramorum","Pinus radiata",1,NA,NA,1,NA
@@ -994,9 +994,9 @@
 "P. ramorum","Vaccinium myrtillus",6,NA,1,5,"Yes"
 "P. ramorum","Vaccinium ovatum",14,NA,1,13,NA
 "P. ramorum","Vaccinium parvifolium",2,NA,NA,2,NA
-"P. ramorum","Viburnum × bodnantense",24,NA,NA,24,"Yes"
 "P. ramorum","Viburnum davidi",3,1,NA,2,NA
 "P. ramorum","Viburnum farreri",8,NA,NA,8,NA
 "P. ramorum","Viburnum plicatum",7,NA,NA,7,"Yes"
 "P. ramorum","Viburnum tinus",30,11,2,17,"Yes"
+"P. ramorum","Viburnum × bodnantense",24,NA,NA,24,"Yes"
 "P. ramorum","Vinca minor",1,NA,NA,1,NA
