@@ -1,13 +1,26 @@
 ---
-title: "NEW"
+title: "Project Name"
 author: "kattur"
 date: ""
 output: html_document
 
 ---
 
-##A searchable database .... 
-  
+## Phytophthora~host interactions in trade and the wider environment
+
+Here we provide tables showing the hosts on which the presence of key Phytopthora species has been recorded, and the pertinent number of records currently within our database. 
+
+Where known, the number of these records that relate to trade or wider environment premises is also provided ('Unknown' means that premises information was not readily available).
+
+If the combination of Phytopthora species and host has been recorded in Scotland, this is indicated as 'Yes' within the final column of each table.
+
+Separate sets of tables are provided for global (ex-UK) records, records from the UK (including Scotland), and records from Scotland only.
+
+Combinations of Phytopthora species and host can be viewed at either host species, genus or family level by selecting the relevant option from the drop down menu on each tab.
+
+Additionally, you can search by Phytopthora species or plant host name using the search box.
+
+Note: There may be additional records relating to a Phytophthora species that are not shown in these tables. This may occur if the host name was not provided with the original record detail, or if we have not been able to identify the given name to a known 'standardised' genus name. Seeming discrepancies between the total number of records of a certain Phytopthora species~host genus combination compared to the total number of records of that Phytopthora species with host species of that same genus, may be accounted for by some records originally identifying the host to genus level only. If a species name was originally provided with the record, but we have not been able to identify it to a known 'standardised' species name, then this record will be considered at genus level only.
 
 <br>
 
@@ -120,8 +133,4 @@ scot_family_dt
 
 <br>
 
-##Horizon-scanning for future...
-
-We have explored .... 
-<br>
 
