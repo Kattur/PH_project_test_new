@@ -1,0 +1,73 @@
+---
+title: "NEW"
+author: "kattur"
+date: ""
+output: html_document
+
+---
+
+##A searchable database .... 
+  
+
+<br>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_knit$set(root.dir = getwd())
+library(DT)
+library(raster)
+library(knitr)
+library(stringr)
+library(dplyr)
+library(kableExtra)
+```
+```{r host_data}
+
+
+species <- read.csv("data//tr_wd_glob_family.csv", stringsAsFactors = FALSE)
+
+genus <- read.csv("data/test_data_set.csv", stringsAsFactors = FALSE)
+
+family <- read.csv("data/test_data_set.csv", stringsAsFactors = FALSE)
+
+
+```
+
+  
+
+
+```{r}
+library(DT)
+
+species_dt <- datatable(species)
+genus_dt <- datatable(genus)
+family_dt <- datatable(family)
+```
+
+# Table {.tabset .tabset-dropdown}
+
+ ## Species 
+
+```{r ,echo = FALSE}
+species_dt   
+```
+## Genus
+
+```{r ,echo = FALSE}
+genus_dt
+```
+
+
+## Family 
+
+```{r ,echo = FALSE}
+family_dt
+```
+
+<br>
+
+##Horizon-scanning for future...
+
+We have explored .... 
+<br>
+
