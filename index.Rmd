@@ -24,11 +24,23 @@ library(kableExtra)
 ```{r host_data}
 
 
-species <- read.csv("data/tr_wd_glob_species.csv", stringsAsFactors = FALSE)
+glob_species <- read.csv("data/tr_wd_glob_species.csv", stringsAsFactors = FALSE)
 
-genus <- read.csv("data/tr_wd_glob_genus.csv", stringsAsFactors = FALSE)
+glob_genus <- read.csv("data/tr_wd_glob_genus.csv", stringsAsFactors = FALSE)
 
-family <- read.csv("data/tr_wd_glob_family.csv", stringsAsFactors = FALSE)
+glob_family <- read.csv("data/tr_wd_glob_family.csv", stringsAsFactors = FALSE)
+
+uk_species <- read.csv("data/tr_wd_uk_species.csv", stringsAsFactors = FALSE)
+
+uk_genus <- read.csv("data/tr_wd_uk_genus.csv", stringsAsFactors = FALSE)
+
+uk_family <- read.csv("data/tr_wd_uk_family.csv", stringsAsFactors = FALSE)
+
+scot_species <- read.csv("data/tr_wd_scot_species.csv", stringsAsFactors = FALSE)
+
+scot_genus <- read.csv("data/tr_wd_scot_genus.csv", stringsAsFactors = FALSE)
+
+scot_family <- read.csv("data/tr_wd_scot_family.csv", stringsAsFactors = FALSE)
 
 
 ```
@@ -39,25 +51,72 @@ family <- read.csv("data/tr_wd_glob_family.csv", stringsAsFactors = FALSE)
 ```{r}
 library(DT)
 
-species_dt <- datatable(species)
-genus_dt <- datatable(genus)
-family_dt <- datatable(family)
+glob_species_dt <- datatable(glob_species)
+glob_genus_dt <- datatable(glob_genus)
+glob_family_dt <- datatable(glob_family)
+
+uk_species_dt <- datatable(uk_species)
+uk_genus_dt <- datatable(uk_genus)
+uk_family_dt <- datatable(uk_family)
+
+scot_species_dt <- datatable(scot_species)
+scot_genus_dt <- datatable(scot_genus)
+scot_family_dt <- datatable(scot_family)
 ```
 
-# Table {.tabset .tabset-dropdown}
+## {.tabset}
 
-## Species 
+### Global{.tabset .col-leftmid .tabset-dropdown}
+#### Species 
 ```{r ,echo = FALSE}
-species_dt   
+glob_species_dt   
 ```
-## Genus
+#### Genus
 ```{r ,echo = FALSE}
-genus_dt
+glob_genus_dt
 ```
-## Family 
+#### Family 
 ```{r ,echo = FALSE}
-family_dt
+glob_family_dt
 ```
+##### {-}
+
+### {-}
+
+
+### UK{.tabset .col-leftmid .tabset-dropdown}
+#### Species 
+```{r ,echo = FALSE}
+uk_species_dt   
+```
+#### Genus
+```{r ,echo = FALSE}
+uk_genus_dt
+```
+#### Family 
+```{r ,echo = FALSE}
+uk_family_dt
+```
+##### {-}
+
+### {-}
+
+### Scotland{.tabset .col-leftmid .tabset-dropdown}
+#### Species 
+```{r ,echo = FALSE}
+scot_species_dt   
+```
+#### Genus
+```{r ,echo = FALSE}
+scot_genus_dt
+```
+#### Family 
+```{r ,echo = FALSE}
+scot_family_dt
+```
+##### {-}
+
+### {-}
 
 <br>
 
