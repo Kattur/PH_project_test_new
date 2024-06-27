@@ -24,11 +24,11 @@ library(kableExtra)
 ```{r host_data}
 
 
-species <- read.csv("data//tr_wd_glob_family.csv", stringsAsFactors = FALSE)
+species <- read.csv("data/tr_wd_glob_species.csv", stringsAsFactors = FALSE)
 
-genus <- read.csv("data/test_data_set.csv", stringsAsFactors = FALSE)
+genus <- read.csv("data/tr_wd_glob_genus.csv", stringsAsFactors = FALSE)
 
-family <- read.csv("data/test_data_set.csv", stringsAsFactors = FALSE)
+family <- read.csv("data/tr_wd_glob_family.csv", stringsAsFactors = FALSE)
 
 
 ```
@@ -46,20 +46,15 @@ family_dt <- datatable(family)
 
 # Table {.tabset .tabset-dropdown}
 
- ## Species 
-
+## Species 
 ```{r ,echo = FALSE}
 species_dt   
 ```
 ## Genus
-
 ```{r ,echo = FALSE}
 genus_dt
 ```
-
-
 ## Family 
-
 ```{r ,echo = FALSE}
 family_dt
 ```
