@@ -1,0 +1,223 @@
+---
+title: "Project Name"
+author: "kattur"
+date: ""
+output: html_document
+
+---
+
+## Location of Phytophthora~host interactions
+
+Here we provide tables showing the locations of Phytophthora~host interactions currently listed within our database, along with the pertitnent number of records.
+
+If the combination of Phytopthora species and host has been recorded in Scotland, this is indicated as 'Yes' within the final column of the 'global' tables.
+
+Separate sets of tables are provided for global (ex-UK) records, records from the UK (including Scotland), and records from Scotland only.
+
+Combinations of Phytopthora species and host can be viewed at either host species or genus rank, by selecting the relevant option from the drop down menu on each tab.
+
+Additionally, you can search by Phytopthora species or plant host name using the search box.
+
+We have used the ______ as a standard _location information____ for the records within the database. 
+
+The 'United Kingdom' is not a _____. Records relating to the United Kingdom may be ____ 'Ireland' (if Northern Ireland), or 'Great Britain' (if from England, Scotland, or Wales). Channel Island records _______. For this reason, the 'UK' tables display ________.
+
+
+Where possible, locations have been allocated based on grid reference/lat long, where such information was not provided with a record, a match to WAGS has been attempted using a location name (e.g., state, province, country). ___ regions allocated on the basis of a name have the potential to have been mismatched to a ___, for example, if the the location of a record is given as the name of a country, but the location of the record is actually in an overseas territory of that country. However, the number of instances of such matches is considered as likely to be low.
+
+
+There may be additional records within our database that relate to Phytopthora~host locations displayed in these tables, but either the location information has not yet been matched to a ____, or no location information is available for the record, and so it is not possible to include them here.
+
+
+
+
+<br>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_knit$set(root.dir = getwd())
+library(DT)
+library(raster)
+library(knitr)
+library(stringr)
+library(dplyr)
+library(kableExtra)
+```
+```{r host_data}
+
+
+glob_species_1 <- read.csv("data/locat_glob_species_level_1.csv", stringsAsFactors = FALSE)
+
+glob_species_2 <- read.csv("data/locat_glob_species_level_2.csv", stringsAsFactors = FALSE)
+
+glob_species_3 <- read.csv("data/locat_glob_species_level_3.csv", stringsAsFactors = FALSE)
+
+glob_species_4 <- read.csv("data/locat_glob_species_level_4.csv", stringsAsFactors = FALSE)
+
+glob_genus_1 <- read.csv("data/locat_glob_genus_level_1.csv", stringsAsFactors = FALSE)
+
+glob_genus_2 <- read.csv("data/locat_glob_genus_level_2.csv", stringsAsFactors = FALSE)
+
+glob_genus_3 <- read.csv("data/locat_glob_genus_level_3.csv", stringsAsFactors = FALSE)
+
+glob_genus_4 <- read.csv("data/locat_glob_genus_level_4.csv", stringsAsFactors = FALSE)
+
+uk_species <- read.csv("data/locat_uk_species.csv", stringsAsFactors = FALSE)
+
+uk_genus <- read.csv("data/locat_uk_genus.csv", stringsAsFactors = FALSE)
+
+scot_species <- read.csv("data/locat_scot_species.csv", stringsAsFactors = FALSE)
+
+scot_genus <- read.csv("data/locat_scot_genus.csv", stringsAsFactors = FALSE)
+
+```
+
+  
+
+```{r}
+library(DT)
+
+glob_species_1_dt <- datatable(glob_species_1,
+                             rownames = FALSE)
+
+glob_species_2_dt <- datatable(glob_species_2,
+                             rownames = FALSE)
+
+glob_species_3_dt <- datatable(glob_species_3,
+                             rownames = FALSE)
+
+glob_species_4_dt <- datatable(glob_species_4,
+                             rownames = FALSE)
+
+
+glob_genus_1_dt <- datatable(glob_genus_1,
+                             rownames = FALSE)
+
+glob_genus_2_dt <- datatable(glob_genus_2,
+                             rownames = FALSE)
+
+glob_genus_3_dt <- datatable(glob_genus_3,
+                             rownames = FALSE)
+
+glob_genus_4_dt <- datatable(glob_genus_4,
+                               rownames = FALSE)
+                               
+
+uk_species_dt <- datatable(uk_species,
+                             rownames = FALSE)
+
+uk_genus_dt <- datatable(uk_genus,
+                             rownames = FALSE)
+
+
+scot_species_dt <- datatable(scot_species,
+                             rownames = FALSE)
+
+scot_genus_dt <- datatable(scot_genus,
+                             rownames = FALSE)
+
+```
+
+## {.tabset}
+
+### Scotland{.tabset .col-leftmid .tabset-dropdown}
+#### Species 
+```{r ,echo = FALSE}
+scot_species_dt   
+```
+#### Genus
+```{r ,echo = FALSE}
+scot_genus_dt
+```
+<!-- #### Family  -->
+<!-- ```{r ,echo = FALSE} -->
+<!-- scot_family_dt -->
+<!-- ``` -->
+##### {-}
+
+### {-}
+
+
+### UK{.tabset .col-leftmid .tabset-dropdown}
+#### Species 
+```{r ,echo = FALSE}
+uk_species_dt   
+```
+#### Genus
+```{r ,echo = FALSE}
+uk_genus_dt
+```
+<!-- #### Family  -->
+<!-- ```{r ,echo = FALSE} -->
+<!-- uk_family_dt -->
+<!-- ``` -->
+##### {-}
+
+### {-}
+
+### Global Level 4{.tabset .col-leftmid .tabset-dropdown}
+#### Species 
+```{r ,echo = FALSE}
+glob_species_4_dt   
+```
+#### Genus
+```{r ,echo = FALSE}
+glob_genus_4_dt
+```
+##### {-}
+
+### {-}
+
+
+### Global Level 3{.tabset .col-leftmid .tabset-dropdown}
+#### Species 
+```{r ,echo = FALSE}
+glob_species_3_dt   
+```
+#### Genus
+```{r ,echo = FALSE}
+glob_genus_3_dt
+```
+##### {-}
+
+### {-}
+
+
+### Global Level 2{.tabset .col-leftmid .tabset-dropdown}
+#### Species 
+```{r ,echo = FALSE}
+glob_species_2_dt   
+```
+#### Genus
+```{r ,echo = FALSE}
+glob_genus_2_dt
+```
+##### {-}
+
+### {-}
+
+
+### Global Level 1{.tabset .col-leftmid .tabset-dropdown}
+#### Species 
+```{r ,echo = FALSE}
+glob_species_1_dt   
+```
+#### Genus
+```{r ,echo = FALSE}
+glob_genus_1_dt
+```
+##### {-}
+
+### {-}
+
+
+## {-}
+
+
+Note:
+  
+
+
+<br>
+
+

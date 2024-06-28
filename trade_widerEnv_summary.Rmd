@@ -87,18 +87,18 @@ scot_genus_dt <- datatable(scot_genus,
 
 ## {.tabset}
 
-### Global{.tabset .col-leftmid .tabset-dropdown}
+### Scotland{.tabset .col-leftmid .tabset-dropdown}
 #### Species 
 ```{r ,echo = FALSE}
-glob_species_dt   
+scot_species_dt   
 ```
 #### Genus
 ```{r ,echo = FALSE}
-glob_genus_dt
+scot_genus_dt
 ```
 <!-- #### Family  -->
 <!-- ```{r ,echo = FALSE} -->
-<!-- glob_family_dt -->
+<!-- scot_family_dt -->
 <!-- ``` -->
 ##### {-}
 
@@ -122,18 +122,18 @@ uk_genus_dt
 
 ### {-}
 
-### Scotland{.tabset .col-leftmid .tabset-dropdown}
+### Global{.tabset .col-leftmid .tabset-dropdown}
 #### Species 
 ```{r ,echo = FALSE}
-scot_species_dt   
+glob_species_dt   
 ```
 #### Genus
 ```{r ,echo = FALSE}
-scot_genus_dt
+glob_genus_dt
 ```
 <!-- #### Family  -->
 <!-- ```{r ,echo = FALSE} -->
-<!-- scot_family_dt -->
+<!-- glob_family_dt -->
 <!-- ``` -->
 ##### {-}
 
