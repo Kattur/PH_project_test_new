@@ -6,6 +6,18 @@ output: html_document
 
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_knit$set(root.dir = getwd())
+library(DT)
+library(raster)
+library(knitr)
+library(stringr)
+library(dplyr)
+library(kableExtra)
+```
+
+
 ## Location of Phytophthora~host interactions
 
 Here we provide tables showing the locations of Phytophthora~host interactions currently listed within our database, along with the pertinent number of records.
@@ -58,19 +70,22 @@ If you wish to establish the total number of records for 'Phytopthora~host' comb
 As with 'United Kingdom', there are some instances where other countries do not match to a WGSRPD level, or for which the lowest level match is Level 2, or even Level 1. In particular, consider the following:
 
 
-####HERE####
-```{r new_dat,include=FALSE}
-#### HERE ####
-
-glob_species_1 <- read.csv("data/locat_glob_species_level_1.csv", stringsAsFactors = FALSE)
-
-```
 
 ```{r, echo=FALSE, warning=FALSE}
+
 ru_num <- read.csv("data/ru_number.csv", stringsAsFactors = FALSE)
 ru_num <- nrow(ru_num)
 
+glob_species_1 <- read.csv("data/countries_WGSRPD.csv", stringsAsFactors = FALSE)
 ```
+
+```{r new_dat}
+
+kable(glob_species_1) %>%
+  kable_styling(position = "left",full_width = F)
+
+```
+
 
 Whilst records with original locations of 'Russia' and the 'USSR' are not included in these tables because they cannot be matched to even to a WGSRPD of level 1. This currently relates to `r ru_num` records.
 
@@ -79,26 +94,10 @@ There may be additional records within our database that relate to Phytopthora~h
 Whilst significant effort has been made to correctly allocate WGSRPD codes to the records, it is possible that WGSRPD matches made on the basis of a name have been incorrectly matched. An example of of this could be if the the location of a record is given as the name of a country, but the location of the record is actually in an overseas territory of that country. The number of instances of such matches is considered as likely to be low, but should nevertheless be kept in mind.
 
 
-
-
-
-
-
-
 <br>
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-knitr::opts_knit$set(root.dir = getwd())
-library(DT)
-library(raster)
-library(knitr)
-library(stringr)
-library(dplyr)
-library(kableExtra)
-```
 
-```{r host_data}
+```{r host_data, include=FALSE}
 
 
 glob_species_1 <- read.csv("data/locat_glob_species_level_1.csv", stringsAsFactors = FALSE)
