@@ -397,7 +397,7 @@
 "P. cinnamomi","Neolitsea","Asia-Tropical",1,NA
 "P. cinnamomi","Neopanax","Australasia",4,NA
 "P. cinnamomi","Nestegis","Australasia",4,NA
-"P. cinnamomi","Nicotiana","Europe",1,NA
+"P. cinnamomi","Nicotiana",NA,1,NA
 "P. cinnamomi","Nothofagus","Asia-Tropical",2,NA
 "P. cinnamomi","Nothofagus","Australasia",39,NA
 "P. cinnamomi","Nothofagus","Southern America",3,NA
@@ -551,7 +551,7 @@
 "P. cinnamomi","Syzygium","Australasia",6,NA
 "P. cinnamomi","Tabebuia","Australasia",1,NA
 "P. cinnamomi","Tabebuia","Europe",2,NA
-"P. cinnamomi","Tanacetum","Europe",2,NA
+"P. cinnamomi","Tanacetum",NA,2,NA
 "P. cinnamomi","Tasmannia","Australasia",4,"Yes"
 "P. cinnamomi","Taxus","Australasia",5,"Yes"
 "P. cinnamomi","Taxus","Europe",10,"Yes"
