@@ -132,43 +132,55 @@ scot_genus <- read.csv("data/locat_scot_genus.csv", stringsAsFactors = FALSE)
 library(DT)
 
 glob_species_1_dt <- datatable(glob_species_1,
-                             rownames = FALSE)
+                             rownames = FALSE,
+                              filter = 'top')
 
 glob_species_2_dt <- datatable(glob_species_2,
-                             rownames = FALSE)
+                             rownames = FALSE,                               
+                             filter = 'top')
 
 glob_species_3_dt <- datatable(glob_species_3,
-                             rownames = FALSE)
+                             rownames = FALSE,                              
+                             filter = 'top')
 
 glob_species_4_dt <- datatable(glob_species_4,
-                             rownames = FALSE)
+                             rownames = FALSE,                               
+                             filter = 'top')
 
 
 glob_genus_1_dt <- datatable(glob_genus_1,
-                             rownames = FALSE)
+                             rownames = FALSE,                             
+                             filter = 'top')
 
 glob_genus_2_dt <- datatable(glob_genus_2,
-                             rownames = FALSE)
+                             rownames = FALSE,                              
+                             filter = 'top')
 
 glob_genus_3_dt <- datatable(glob_genus_3,
-                             rownames = FALSE)
+                             rownames = FALSE,                              
+                             filter = 'top')
 
 glob_genus_4_dt <- datatable(glob_genus_4,
-                               rownames = FALSE)
+                               rownames = FALSE,                             
+                             filter = 'top')
                                
 
 uk_species_dt <- datatable(uk_species,
-                             rownames = FALSE)
+                             rownames = FALSE,                               
+                           filter = 'top')
 
 uk_genus_dt <- datatable(uk_genus,
-                             rownames = FALSE)
+                             rownames = FALSE,                             
+                         filter = 'top')
 
 
 scot_species_dt <- datatable(scot_species,
-                             rownames = FALSE)
+                             rownames = FALSE,                               
+                             filter = 'top')
 
 scot_genus_dt <- datatable(scot_genus,
-                             rownames = FALSE)
+                             rownames = FALSE,                               
+                           filter = 'top')
 
 ```
 

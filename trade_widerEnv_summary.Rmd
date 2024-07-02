@@ -64,25 +64,34 @@ scot_genus <- read.csv("data/tr_wd_scot_genus.csv", stringsAsFactors = FALSE)
 library(DT)
 
 glob_species_dt <- datatable(glob_species,
-                             rownames = FALSE)
+                              rownames = FALSE,
+                              filter = 'top')
 glob_genus_dt <- datatable(glob_genus,
-                             rownames = FALSE)
+                             rownames = FALSE,                            
+                           filter = 'top')
 #glob_family_dt <- datatable(glob_family,
-#                             rownames = FALSE)
+#                             rownames = FALSE,                             
+#                               filter = 'top')
 
 uk_species_dt <- datatable(uk_species,
-                             rownames = FALSE)
+                             rownames = FALSE,                              
+                           filter = 'top')
 uk_genus_dt <- datatable(uk_genus,
-                             rownames = FALSE)
+                             rownames = FALSE,                            
+                         filter = 'top')
 #uk_family_dt <- datatable(uk_family,
-#                             rownames = FALSE)
+#                             rownames = FALSE,                            
+#                                filter = 'top')
 
 scot_species_dt <- datatable(scot_species,
-                             rownames = FALSE)
+                             rownames = FALSE,                             
+                             filter = 'top')
 scot_genus_dt <- datatable(scot_genus,
-                             rownames = FALSE)
+                             rownames = FALSE,                             
+                           filter = 'top')
 #scot_family_dt <- datatable(scot_family,
-#                             rownames = FALSE)
+#                             rownames = FALSE,                            
+#                                filter = 'top')
 ```
 
 ## {.tabset}
