@@ -19,6 +19,8 @@ Key phyto
 Key hosts
 
 
+Only records for which have standardised phyto and standardised host to at least genus.
+May therefore be other records within the database relating to phytophthora and/or hosts for which we have been unable to establish a standardised name, that are not represented in these outputs
 
 ### [Trade and Wider Environment Summary Tables](<trade_widerEnv_summary.html>) 
 
