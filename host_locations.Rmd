@@ -1,10 +1,9 @@
 ---
 title: "Project Name"
 author: "kattur"
-runtime: shiny ## genus level 3 table too large, so need to render using shiny
 date: "" 
-output: html_document
-
+output: html_document 
+runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
@@ -19,7 +18,7 @@ library(kableExtra)
 ```
 
 
-## Location of Phytophthora~host interactions
+## Location of hosts
 
 Here we provide tables showing the locations of 
 
