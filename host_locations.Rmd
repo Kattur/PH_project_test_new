@@ -100,7 +100,7 @@ species_l1_dt
 
 ### Genus{.tabset .col-leftmid}
 #### Level.3 
-```{r ,echo = FALSE}
+```{r ,echo = FALSE, warning = FALSE}
 genus_l3_dt   
 ```
 #### Level.2
