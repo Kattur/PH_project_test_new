@@ -3,6 +3,8 @@ title: "Project Name"
 author: "kattur"
 date: "" 
 output: html_document 
+#runtime: shiny
+
 ---
 
 ```{r setup, include=FALSE}
@@ -68,11 +70,13 @@ genus_l2_dt <- datatable(genus_l2,
                              rownames = FALSE,
                              filter = 'top')
 
-genus_l3_dt <- DT::renderDT(datatable(genus_l3,
+#genus_l3_dt <- DT::renderDT(datatable(genus_l3,
+#                             rownames = FALSE,
+#                             filter = 'top')) ## table too large, so need to render using shiny
+
+genus_l3_dt <- datatable(genus_l3,
                              rownames = FALSE,
-                             filter = 'top')) ## table too large, so need to render using shiny
-
-
+                             filter = 'top') 
 ```
 
 ## {.tabset}
