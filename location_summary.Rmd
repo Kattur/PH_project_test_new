@@ -133,6 +133,7 @@ library(DT)
 
 glob_species_1_dt <- datatable(glob_species_1,
                              rownames = FALSE,
+                             colnames = c('Phytophthora', 'Host', 'Level 1', 'Total', 'P~H in Scotland?'),
                               filter = 'top')
 
 glob_species_2_dt <- datatable(glob_species_2,

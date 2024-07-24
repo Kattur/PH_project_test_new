@@ -1,4 +1,4 @@
-"Phytophthora","Host","L2.name","L1.name","UK","England","Scotland","Wales","N Ireland","Nation unknown"
+"Phytophthora","Host","Level.2","Level.1","UK","England","Scotland","Wales","N Ireland","Nation unknown"
 "P. alni","Alnus alnobetula","Northern Europe","Europe",2,NA,1,NA,NA,1
 "P. alni","Alnus cordata","Northern Europe","Europe",3,NA,NA,1,NA,2
 "P. alni","Alnus glutinosa","Northern Europe","Europe",26,12,2,NA,NA,12
@@ -18,7 +18,7 @@
 "P. austrocedri","Juniperus × pfitzeriana","Northern Europe","Europe",2,2,NA,NA,NA,NA
 "P. austrocedri","Microbiota decussata","Northern Europe","Europe",1,1,NA,NA,NA,NA
 "P. austrocedri","Prunus laurocerasus","Northern Europe","Europe",1,1,NA,NA,NA,NA
-"P. austrocedri","× hesperotropsis leylandii","Northern Europe","Europe",10,8,2,NA,NA,NA
+"P. austrocedri","× Hesperotropsis leylandii","Northern Europe","Europe",10,8,2,NA,NA,NA
 "P. cinnamomi","Abies procera","Northern Europe","Europe",1,1,NA,NA,NA,NA
 "P. cinnamomi","Acer negundo","Northern Europe","Europe",2,NA,NA,NA,NA,2
 "P. cinnamomi","Alnus incana","Northern Europe","Europe",4,2,NA,NA,NA,2
@@ -100,7 +100,7 @@
 "P. cinnamomi","Viburnum tinus","Northern Europe","Europe",2,2,NA,NA,NA,NA
 "P. cinnamomi","Viburnum × burkwoodii","Northern Europe","Europe",1,1,NA,NA,NA,NA
 "P. cinnamomi","Wisteria sinensis","Northern Europe","Europe",3,1,NA,NA,NA,2
-"P. cinnamomi","× hesperotropsis leylandii","Northern Europe","Europe",1,1,NA,NA,NA,NA
+"P. cinnamomi","× Hesperotropsis leylandii","Northern Europe","Europe",1,1,NA,NA,NA,NA
 "P. kernoviae","Aesculus hippocastanum","Northern Europe","Europe",1,1,NA,NA,NA,NA
 "P. kernoviae","Castanea sativa","Northern Europe","Europe",1,1,NA,NA,NA,NA
 "P. kernoviae","Drimys winteri","Northern Europe","Europe",14,7,NA,3,NA,4

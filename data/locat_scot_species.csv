@@ -1,4 +1,4 @@
-"Phytophthora","Host","L4.name","L3.name","L2.name","L1.name","Scotland"
+"Phytophthora","Host","Level.4","Level.3","Level.2","Level.1","Scotland"
 "P. alni","Alnus alnobetula","Great Britain","Great Britain","Northern Europe","Europe",1
 "P. alni","Alnus glutinosa","Great Britain","Great Britain","Northern Europe","Europe",2
 "P. austrocedri","Callitropsis nootkatensis","Great Britain","Great Britain","Northern Europe","Europe",1
@@ -9,7 +9,7 @@
 "P. austrocedri","Juniperus communis","Great Britain","Great Britain","Northern Europe","Europe",309
 "P. austrocedri","Juniperus horizontalis","Great Britain","Great Britain","Northern Europe","Europe",4
 "P. austrocedri","Juniperus squamata","Great Britain","Great Britain","Northern Europe","Europe",3
-"P. austrocedri","× hesperotropsis leylandii","Great Britain","Great Britain","Northern Europe","Europe",2
+"P. austrocedri","× Hesperotropsis leylandii","Great Britain","Great Britain","Northern Europe","Europe",2
 "P. cinnamomi","Calluna vulgaris","Great Britain","Great Britain","Northern Europe","Europe",2
 "P. cinnamomi","Castanea sativa","Great Britain","Great Britain","Northern Europe","Europe",1
 "P. cinnamomi","Chamaecyparis lawsoniana","Great Britain","Great Britain","Northern Europe","Europe",2
